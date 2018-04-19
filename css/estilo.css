@@ -1,0 +1,90 @@
+/*
+Site: Assistir séries
+Backend e Frontend: Marcielli Oliveira;
+*/
+
+/* Configuração geral */
+body {
+    background-color: white;
+}
+
+h1 {
+    color: #33cc33;
+}
+
+#rowCentro {
+   display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+
+/* Topo */
+.container-fluid .linha {
+    border-top: 1px solid #33cc33;
+}
+
+/* Menu */
+.container-fluid .navbar {
+    margin-top: 10px;
+    margin-bottom: -5px;
+    background-color: #33cc33;
+    color: white;
+}
+
+.container-fluid .navbar .navbar-brand {
+    color: white;
+}
+
+.container-fluid .navbar li a{
+     color: white;
+}
+
+.container-fluid .navbar li a:hover {
+    color: #248f24;
+    font-weight: bold;
+}
+
+
+/* Formulário Cadastro */
+
+.form .form-group label {
+    color: red;
+}
+
+/* Dados do Início */
+.container-fluid .mostrarInicio li {
+    color: #33cc33;   
+    font-size: 130%;
+}
+
+
+
+/* Rodape */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+}
+
+.footer .linha {
+	border-top: 1px solid #33cc33;
+}
+
+.footer p {
+    color: #33cc33;
+    font-weight: bold;
+}
+
+
+/*
+Cores
+
+https://www.w3schools.com/colors/colors_picker.asp
+
+*/
