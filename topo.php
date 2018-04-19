@@ -33,7 +33,7 @@ Backend e Frontend: Marcielli Oliveira;
     </div>
     <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-left">
-            <li><a href="#">Left</a></li>
+            <li><a href="pagina_inicial.php">Página Inicial</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-center">
             <li><a href="#">Center 1</a></li>

@@ -116,6 +116,66 @@ label {
     font-weight: bold;
 }
 
+/* Página Inicial */
+
+.row #perfil {
+   /* background-color: #33cc33;*/
+    padding: 1%;
+    border: 1px solid #33cc33;
+}
+
+.row #perfil img {
+    float: left;
+}
+
+.row #perfil a {
+    color: #33cc33;
+}
+
+
+/* Perfil */
+#uploadfile {
+  display: none;
+}
+
+.profile-img-container img:hover {
+    opacity: 0.5;
+    z-index: 501;
+}
+
+.profile-img-container img:hover + i {
+    display: block;
+    z-index: 500;
+}
+
+/* Feed */
+
+
+
+
+/* Series */
+.container-fluid #series .list-group-item {
+    background-color: white;
+    border: 1px solid #33cc33;
+    color: #33cc33;
+}
+
+.container-fluid #series .list-group-item:hover {
+    background-color: #33cc33;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 Cores
