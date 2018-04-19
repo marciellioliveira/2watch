@@ -23,24 +23,27 @@ Backend e Frontend: Marcielli Oliveira;
 
   <div class="container-fluid">      
 
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.php">
-            2WATCH
-          </a>
-        </div>
-        <ul class="nav navbar-nav hidden">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Page 1</a></li>
-          <li><a href="#">Page 2</a></li>
-          <li><a href="#">Page 3</a></li>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-left">
+            <li><a href="#">Left</a></li>
         </ul>
-        <ul class="nav navbar-nav navbar-right">        	
-          <li><a href="Cadastrar.php"><span class="glyphicon glyphicon-user"></span> Cadastrar</a></li>
-          <li><a href="entrar.php"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
+        <ul class="nav navbar-nav navbar-center">
+            <li><a href="#">Center 1</a></li>
+            <li><a href="#">Center 2</a></li>
+            <li><a href="#">Center 3</a></li>
         </ul>
-      </div>
-    </nav>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="entrar.php">Sair</a></li>
+        </ul>
+    </div>
+</nav>
 
     <hr class="linha">
