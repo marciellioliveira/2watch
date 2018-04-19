@@ -46,39 +46,38 @@ require_once 'topo.php';
 
    <!-- Cadastrar -->
 
-   <form action="/action_page.php">
+   <form action="crud/cadastrarUsuario.php" method="POST">
 
     <img src="imgs/marca/2watch-logo.png" class="img-circle" alt="Cinque Terre" >
 
     <div class="form-group">
-      <label for="nome">Nome</label>
-      <input type="text" class="form-control" id="nome" required>
+      <label for="nome">Nome*</label>
+      <input type="text" class="form-control" name="nome" id="nome" required>
     </div>
 
     <div class="form-group">
-      <label for="sobrenome">Sobrenome</label>
-      <input type="text" class="form-control" id="nome" required>
+      <label for="sobrenome">Sobrenome*</label>
+      <input type="text" class="form-control" name="sobrenome" id="sobrenome" required>
     </div>
 
     <div class="form-group">
-      <label for="email">Email</label>
-      <input type="text" class="form-control" id="email" required>
+      <label for="email">Email*</label>
+      <input type="text" class="form-control" name="email" id="email" required>
     </div>
 
     <div class="form-group">
-      <label for="senha">Senha</label>
-      <input type="password" class="form-control" id="senha" required>
+      <label for="senha">Senha*</label>
+      <input type="password" class="form-control" name="senha" id="senha" required>
     </div>
 
     <div class="checkbox">
       <label><input type="checkbox"> Lembrar senha?</label>
     </div>
-    <button type="submit" class="btn btn-default">Cadastrar</button>
+    <button type="submit" value="cadastrar" class="btn btn-default pull-right">Cadastrar</button>
 
   </form>
 
   
-
   
 </div>
 </div>

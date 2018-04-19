@@ -46,24 +46,24 @@ require_once 'topo.php';
 
    <!-- Entrar -->
 
-   <form action="/action_page.php">
+   <form action="crud/entrarUsuario.php" method="POST">
 
     <img src="imgs/marca/2watch-logo.png" class="img-circle" alt="Cinque Terre" >
 
     <div class="form-group">
-      <label for="email">Email</label>
-      <input type="text" class="form-control" id="email">
+      <label for="email">Email*</label>
+      <input type="text" class="form-control" name="email" id="email" required>
     </div>
 
     <div class="form-group">
-      <label for="senha">Senha</label>
-      <input type="password" class="form-control" id="senha">
+      <label for="senha">Senha*</label>
+      <input type="password" class="form-control" name="senha" id="senha" required>
     </div>
 
     <div class="checkbox">
       <label><input type="checkbox"> Lembrar senha?</label>
     </div>
-    <button type="submit" class="btn btn-default">Entrar</button>
+    <button type="submit" class="btn btn-default pull-right">Entrar</button>
 
   </form>
   

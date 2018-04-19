@@ -5,22 +5,22 @@
     $servername = "localhost";
     $username = "root";
     $password = "";
-    
-    $nome = 'Maria';
-    $sobrenome = 'Oliveira';
-    $email = 'maria@gmail.com';
-    $senha = '123';
+
+    $nome = $_POST['nome'];
+    $sobrenome = $_POST['sobrenome'];
+    $email = $_POST['email'];
+    $senha = $_POST['senha'];
 
     try {
 
         require_once('conexao.php');
 
-        $sql = "INSERT INTO cliente (id, nome, sobrenome, email, senha)
+        $sql = "INSERT INTO usuario (id_user, nome_user, sobrenome_user, email_user, senha_user)
         VALUES (null, '".$nome."', '".$sobrenome."', '".$email."','".$senha."')";
 
         $con->exec($sql);
 
-        echo "Dados inseridos com sucesso!";
+        header('Location: ../entrar.php');
         
         
     } catch (PDOException $e) {
