@@ -48,24 +48,26 @@ require_once 'topo.php';
 
    <form action="/action_page.php">
 
+    <img src="imgs/marca/2watch-logo.png" class="img-circle" alt="Cinque Terre" >
+
     <div class="form-group">
       <label for="nome">Nome</label>
-      <input type="text" class="form-control" id="nome">
+      <input type="text" class="form-control" id="nome" required>
     </div>
 
     <div class="form-group">
       <label for="sobrenome">Sobrenome</label>
-      <input type="text" class="form-control" id="nome">
+      <input type="text" class="form-control" id="nome" required>
     </div>
 
     <div class="form-group">
       <label for="email">Email</label>
-      <input type="text" class="form-control" id="email">
+      <input type="text" class="form-control" id="email" required>
     </div>
 
     <div class="form-group">
       <label for="senha">Senha</label>
-      <input type="password" class="form-control" id="senha">
+      <input type="password" class="form-control" id="senha" required>
     </div>
 
     <div class="checkbox">

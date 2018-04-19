@@ -26,7 +26,9 @@ Backend e Frontend: Marcielli Oliveira;
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="index.php">2Watch</a>
+          <a class="navbar-brand" href="index.php">
+            2WATCH
+          </a>
         </div>
         <ul class="nav navbar-nav hidden">
           <li><a href="#">Home</a></li>

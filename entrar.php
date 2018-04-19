@@ -48,6 +48,8 @@ require_once 'topo.php';
 
    <form action="/action_page.php">
 
+    <img src="imgs/marca/2watch-logo.png" class="img-circle" alt="Cinque Terre" >
+
     <div class="form-group">
       <label for="email">Email</label>
       <input type="text" class="form-control" id="email">
