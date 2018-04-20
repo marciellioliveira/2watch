@@ -9,14 +9,20 @@ require_once 'topo.php';
   <div class="row">
     <div class="col-sm-4" id="perfil">
 
-      <div class="profile-img-container">
-        <img src="imgs/usuario/dualipa/dualipa.jpg" class="img-thumbnail img-circle img-responsive" alt="Cinque Terre">        
-        <i class="fa fa-upload fa-5x"></i>                   
+      <div class="jumbotron" >
+        <div class="profile-img-container">
+        <img src="imgs/usuario/dualipa/dualipa.jpg" class="img-circle img-responsive" alt="Cinque Terre">        
+        <i class="fa fa-upload fa-5x"></i>       
+         <input id='uploadfile' type ='file'>            
       </div>
       <a href=""><h4>Dua Lipa</h4></a>
-  
-
-      <input id='uploadfile' type ='file'>
+     
+      </div>
+      <marquee behavior="scroll" direction="left" id="marquee">
+      Está assistindo: 5x16 de Riverdale
+    </marquee>
+      <hr>
+      <button type="button" class="btn btn-default pull-right" id="editarPerfil">Editar Perfil</button>
 
     </div>
 
@@ -29,7 +35,6 @@ require_once 'topo.php';
 
     </div>
     <div class="col-sm-4" id="series">
-
       <div class="list-group">
         <h4>Hoje</h4>
         <a href="#" class="list-group-item">Riverdale</a>

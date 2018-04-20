@@ -36,9 +36,12 @@ Backend e Frontend: Marcielli Oliveira;
             <li><a href="pagina_inicial.php">Página Inicial</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-center">
-            <li><a href="#">Center 1</a></li>
-            <li><a href="#">Center 2</a></li>
-            <li><a href="#">Center 3</a></li>
+            <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Pesquise aqui">
+        </div>
+        <button type="submit" class="btn btn-default">Entrar</button>
+      </form>
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li><a href="entrar.php">Sair</a></li>

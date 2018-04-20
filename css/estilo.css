@@ -119,17 +119,38 @@ label {
 /* Página Inicial */
 
 .row #perfil {
-   /* background-color: #33cc33;*/
-    padding: 1%;
     border: 1px solid #33cc33;
+    background-color: white;   
+}
+
+.row #perfil .jumbotron {
+    background-color: white;
+    margin-bottom: -15%;
+}
+
+.row #perfil #editarPerfil {
+    margin-bottom: 5%;
 }
 
 .row #perfil img {
     float: left;
+    max-width: 40%;
+    margin-left: -20%;
+    margin-top: -12%;
+
 }
 
 .row #perfil a {
+    color: black;
+}
+
+.row #perfil a:hover {
     color: #33cc33;
+}
+
+.row #perfil a h4{
+    padding-left: 30%;
+
 }
 
 
@@ -168,6 +189,7 @@ label {
 .container-fluid #series #btn {
     background-color: #33cc33;
     color: white;
+    border-top: 1px solid #d6f5d6;
 }
 
 .container-fluid #series #btn:hover {
