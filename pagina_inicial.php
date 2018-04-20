@@ -36,6 +36,8 @@ require_once 'topo.php';
         <a href="#" class="list-group-item">Pretty Little Liars</a>
         <a href="#" class="list-group-item">Orange is the new black</a>
         <a href="#" class="list-group-item">Legends of tomorrow</a>
+        <a href="#" class="list-group-item btn" id="btn">VER MAIS</a>
+        <br>
     </div>
 
       <div class="list-group">
@@ -44,6 +46,7 @@ require_once 'topo.php';
         <a href="#" class="list-group-item">Pretty Little Liars</a>
         <a href="#" class="list-group-item">Orange is the new black</a>
         <a href="#" class="list-group-item">Legends of tomorrow</a>
+        <a href="#" class="list-group-item btn" id="btn">VER MAIS</a>
     </div>
 
       <div class="list-group">
@@ -52,6 +55,7 @@ require_once 'topo.php';
         <a href="#" class="list-group-item">Pretty Little Liars</a>
         <a href="#" class="list-group-item">Orange is the new black</a>
         <a href="#" class="list-group-item">Legends of tomorrow</a>
+        <a href="#" class="list-group-item btn" id="btn">VER MAIS</a>
     </div>
 
     </div>
