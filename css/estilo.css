@@ -4,8 +4,18 @@ Backend e Frontend: Marcielli Oliveira;
 */
 
 /* Configuração geral */
+::-moz-selection{
+background:#33cc33;
+color: white;
+}
+::selection {
+background:#33cc33;
+color: white;
+}
+
 body {
     background-color: white;
+
 }
 
 h1 {
@@ -30,8 +40,7 @@ h1 {
     border: 1px solid #33cc33;    
 }
 
-#rowCentro {
-   display: flex;
+#rowCentro {   
     align-items: center;
     padding-top: 30px;
 }
@@ -83,6 +92,9 @@ label {
 }
 
 /* Dados do Início */
+
+
+
 .container-fluid .mostrarInicio li {
     color: #33cc33;   
     font-size: 130%;
@@ -97,24 +109,19 @@ label {
 
 /* Rodape */
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: center;
-    padding-top: 10px;
-    color: black;
-}
-
-.footer .linha {
-	border-top: 1px solid #33cc33;
+    background-color: white;    
 }
 
 .footer p {
     color: #33cc33;
+    text-align: center;
     font-weight: bold;
 }
+
+.footer .linha {
+    border: 1px solid #33cc33;
+}
+
 
 /* Página Inicial */
 

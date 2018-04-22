@@ -9,7 +9,9 @@ require_once 'topo.php';
   <div class="row">
     <div class="col-sm-4" id="perfil">
 
+      
       <div class="jumbotron" >
+
         <div class="profile-img-container">
         <img src="imgs/usuario/dualipa/dualipa.jpg" class="img-circle img-responsive" alt="Cinque Terre">        
         <i class="fa fa-upload fa-5x"></i>       
@@ -18,11 +20,13 @@ require_once 'topo.php';
       <a href=""><h4>Dua Lipa</h4></a>
      
       </div>
-      <marquee behavior="scroll" direction="left" id="marquee">
+      <marquee behavior="scroll" direction="left" id="marquee"><br>
       Está assistindo: 5x16 de Riverdale
     </marquee>
       <hr>
-      <button type="button" class="btn btn-default pull-right" id="editarPerfil">Editar Perfil</button>
+       <button type="button" class="btn btn-default pull-right" id="editarPerfil">Editar Perfil</button>
+
+     
 
     </div>
 

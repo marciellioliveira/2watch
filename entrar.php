@@ -47,7 +47,7 @@ Backend e Frontend: Marcielli Oliveira;
 
 
     <div class="row" id="rowCentro">          
-      <div class="col-lg-6">
+      <div class="col-lg-6 col-sm-6 col-xs-12">
         <div id="carouselInicio" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -78,7 +78,7 @@ Backend e Frontend: Marcielli Oliveira;
           </a>
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6 col-sm-6 col-xs-12">
 
        <!-- Entrar -->
 
