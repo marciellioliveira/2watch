@@ -1,31 +1,28 @@
 <?php 
-
 require_once 'topo.php';
-
 ?>
 
 
 <div class="container-fluid">      
   <div class="row">
-    <div class="col-sm-4" id="perfil">
+    <div class="col-sm-3" id="perfil">
 
       
-      <div class="jumbotron">
+      <!--<div class="jumbotron">-->
+      	<img src="imgs/usuario/dualipa/dualipa.jpg" alt="Cinque Terre">
 
-
-        <div class="profile-img-container">
-          <img src="imgs/usuario/dualipa/dualipa.jpg" class="img-rounded img-responsive" alt="Foto de Perfil">        
+<!--         <img src="imgs/usuario/dualipa/dualipa.jpg" class="img-rounded" alt="Foto de Perfil">        
           <i class="fa fa-upload fa-5x"></i>       
-          <input id='uploadfile' type ='file'> 
+          <input id='uploadfile' type ='file'> -->
            <a href=""><h4>Dua Lipa</h4></a>           
-        </div>
+        
 
         <marquee behavior="scroll" direction="left" id="marquee"><br>
           Visto por último: Riverdale - Temporada 5, Epsódio 16.
         </marquee>
         <hr>
         <button type="button" class="btn btn-default pull-right" id="editarPerfil">Editar Perfil</button>
-      </div>
+      <!--</div>-->
   
      
 
@@ -34,7 +31,7 @@ require_once 'topo.php';
     </div>
 
 
-    <div class="col-sm-4" id="feed">
+    <div class="col-sm-5" id="feed">
 
 
 
@@ -92,7 +89,6 @@ require_once 'topo.php';
   filter = input.value.toUpperCase();
   table = document.getElementById("myTable");
   tr = table.getElementsByTagName("tr");
-
   // Loop through all table rows, and hide those who don't match the search query
   for (i = 0; i < tr.length; i++) {
     td = tr[i].getElementsByTagName("td")[0];

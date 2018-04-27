@@ -129,22 +129,21 @@ label {
 /* Página Inicial */
 
 
-.row #perfil .jumbotron {
+.row #perfil {
     background-color: white;
     margin-bottom: -15%;
     border: 1px solid  #1F487E;
+
 }
 
 .row #perfil #editarPerfil {
     margin-bottom: 5%;
 }
 
-.row #perfil img {
+div#perfil.col-sm-3 img{
     float: left;
     max-width: 40%;
-    margin-left: -10%;
-    margin-top: -12%;
-
+    padding-top: 5%;
 }
 
 .row #perfil a {
@@ -156,7 +155,8 @@ label {
 }
 
 .row #perfil a h4{
-    padding-left: 35%;
+    padding-left: 45%;
+    padding-top: 35%;
 
 }
 
