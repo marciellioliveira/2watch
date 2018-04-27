@@ -37,6 +37,27 @@ require_once 'topo.php';
 
     <div class="col-sm-6" id="feed">
 
+      <div class="list-group">
+
+        <h4>Atualizações</h4>
+        <a href="#" class="list-group-item">Dener finalizou The Big Bang Theory</a>
+        <a href="#" class="list-group-item">Vinicius começou a maratonar The IT Crowd</a>
+        <a href="#" class="list-group-item">Janaina gostou do epsódio 5x3 de Riverdale</a>
+        <a href="#" class="list-group-item">Marcelo comentou no epsódio 5x7 de Grey's Anatomy</a>
+        <a href="#" class="list-group-item">Dener finalizou The Big Bang Theory</a>
+        <a href="#" class="list-group-item">Vinicius começou a maratonar The IT Crowd</a>
+        <a href="#" class="list-group-item">Janaina gostou do epsódio 5x3 de Riverdale</a>
+        <a href="#" class="list-group-item">Marcelo comentou no epsódio 5x7 de Grey's Anatomy</a>
+        <a href="#" class="list-group-item">Dener finalizou The Big Bang Theory</a>
+        <a href="#" class="list-group-item">Vinicius começou a maratonar The IT Crowd</a>
+        <a href="#" class="list-group-item">Janaina gostou do epsódio 5x3 de Riverdale</a>
+        <a href="#" class="list-group-item">Marcelo comentou no epsódio 5x7 de Grey's Anatomy</a>
+        <a href="#" class="list-group-item">Dener finalizou The Big Bang Theory</a>
+        <a href="#" class="list-group-item">Vinicius começou a maratonar The IT Crowd</a>
+        <a href="#" class="list-group-item">Janaina gostou do epsódio 5x3 de Riverdale</a>
+        <a href="#" class="list-group-item">Marcelo comentou no epsódio 5x7 de Grey's Anatomy</a>
+                
+      </div>
 
 
 
