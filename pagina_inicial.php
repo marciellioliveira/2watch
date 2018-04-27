@@ -10,21 +10,24 @@ require_once 'topo.php';
     <div class="col-sm-4" id="perfil">
 
       
-      <div class="jumbotron" >
+      <div class="jumbotron">
+
 
         <div class="profile-img-container">
-        <img src="imgs/usuario/dualipa/dualipa.jpg" class="img-circle img-responsive" alt="Cinque Terre">        
-        <i class="fa fa-upload fa-5x"></i>       
-         <input id='uploadfile' type ='file'>            
+          <img src="imgs/usuario/dualipa/dualipa.jpg" class="img-rounded img-responsive" alt="Foto de Perfil">        
+          <i class="fa fa-upload fa-5x"></i>       
+          <input id='uploadfile' type ='file'> 
+           <a href=""><h4>Dua Lipa</h4></a>           
+        </div>
+
+        <marquee behavior="scroll" direction="left" id="marquee"><br>
+          Visto por último: Riverdale - Temporada 5, Epsódio 16.
+        </marquee>
+        <hr>
+        <button type="button" class="btn btn-default pull-right" id="editarPerfil">Editar Perfil</button>
       </div>
-      <a href=""><h4>Dua Lipa</h4></a>
+  
      
-      </div>
-      <marquee behavior="scroll" direction="left" id="marquee"><br>
-      Está assistindo: 5x16 de Riverdale
-    </marquee>
-      <hr>
-       <button type="button" class="btn btn-default pull-right" id="editarPerfil">Editar Perfil</button>
 
      
 
@@ -40,6 +43,7 @@ require_once 'topo.php';
     </div>
     <div class="col-sm-4" id="series">
       <div class="list-group">
+
         <h4>Hoje</h4>
         <a href="#" class="list-group-item">Riverdale</a>
         <a href="#" class="list-group-item">Pretty Little Liars</a>
