@@ -137,7 +137,7 @@ label {
 }
 
 .row #perfil #editarPerfil {
-    margin-bottom: 5%;
+   margin-top: 5%;
 }
 
 div#perfil.col-sm-3 img{
@@ -162,19 +162,17 @@ div#perfil.col-sm-3 img{
 
 
 /* Perfil */
-#uploadfile {
-  display: none;
+#perfil div.list-group h4{
+   text-align: center;
+    color: #1F487E;
 }
 
-.profile-img-container img:hover {
-    opacity: 0.5;
-    z-index: 501;
+#perfil .list-group-item {
+    background-color: white;
+    border: 1px solid #1F487E;
+    color:  #1F487E;
 }
 
-.profile-img-container img:hover + i {
-    display: block;
-    z-index: 500;
-}
 
 /* Feed */
 

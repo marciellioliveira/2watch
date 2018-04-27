@@ -7,24 +7,29 @@ require_once 'topo.php';
   <div class="row">
     <div class="col-sm-3" id="perfil">
 
-      
-      <!--<div class="jumbotron">-->
-      	<img src="imgs/usuario/dualipa/dualipa.jpg" alt="Cinque Terre">
+      	<img src="imgs/usuario/dualipa/dualipa.jpg" alt="Foto Perfil">
+        <button type="button" class="btn btn-default pull-right" id="editarPerfil">Editar Perfil</button>
 
-<!--         <img src="imgs/usuario/dualipa/dualipa.jpg" class="img-rounded" alt="Foto de Perfil">        
-          <i class="fa fa-upload fa-5x"></i>       
-          <input id='uploadfile' type ='file'> -->
            <a href=""><h4>Dua Lipa</h4></a>           
-        
 
         <marquee behavior="scroll" direction="left" id="marquee"><br>
           Visto por último: Riverdale - Temporada 5, Epsódio 16.
         </marquee>
         <hr>
-        <button type="button" class="btn btn-default pull-right" id="editarPerfil">Editar Perfil</button>
-      <!--</div>-->
-  
-     
+        
+
+        <div class="list-group">
+
+          <h4>Série em Grupo</h4>
+          <p>Crie uma sala e marque horário para que pessoas assistam a mesma série que você. </p>
+          <a href="" class="list-group-item">The Big Bang Theory</a>
+          <a href="" class="list-group-item">Young Sheldon</a>
+          <a href="" class="list-group-item">The 100</a>
+          <a href="" class="list-group-item">Broklyn 99</a>
+          <a href="#" class="list-group-item btn" id="btn">VER MAIS</a>
+          <a href="#" class="list-group-item btn" id="btn">ADICIONAR SALA</a>
+          <br>
+        </div>
 
    
     </div>
@@ -76,33 +81,7 @@ require_once 'topo.php';
 
 
 
-<script type="text/javascript">
-  $('.profile-img-container img').click(function(){
-    $('#uploadfile').click();
-  });
-</script>
 
-<script type="text/javascript">
-  function myFunction() {
-  // Declare variables 
-  var input, filter, table, tr, td, i;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("myTable");
-  tr = table.getElementsByTagName("tr");
-  // Loop through all table rows, and hide those who don't match the search query
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[0];
-    if (td) {
-      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
-      }
-    } 
-  }
-}
-</script>
 
 </body>
 </html>
