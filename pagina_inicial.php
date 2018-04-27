@@ -26,19 +26,20 @@ require_once 'topo.php';
   
      
 
-     
-
+   
     </div>
 
 
-    <div class="col-sm-5" id="feed">
+    <div class="col-sm-6" id="feed">
 
 
 
 
 
     </div>
-    <div class="col-sm-4" id="series">
+
+    <div class="col-sm-3" id="series">
+    	
       <div class="list-group">
 
         <h4>Hoje</h4>

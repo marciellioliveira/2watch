@@ -24,7 +24,7 @@ Backend e Frontend: Marcielli Oliveira;
 
   <div class="container-fluid">      
 
-<nav class="navbar navbar-default" role="navigation">
+<!--<nav class="navbar navbar-default" role="navigation">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
@@ -48,6 +48,35 @@ Backend e Frontend: Marcielli Oliveira;
             <li><a href="entrar.php">Sair</a></li>
         </ul>
     </div>
+</nav>-->
+
+<nav class="navbar navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="pagina_inicial.php">2WATCH</a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav ">
+      <li><a href="#">Grade</a></li>
+      <li><a href="#">Amigos</a></li>
+      <li><a href="#">Mensagens</a></li>
+    </ul>
+    <form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Pesquise aqui">
+      </div>
+      <button type="submit" class="btn btn-default">Enviar</button>
+    </form>
+    <ul class="nav navbar-nav navbar-right">
+            <li><a href="entrar.php">Sair</a></li>
+        </ul>
+      </div>
+  </div>
 </nav>
 
     <hr class="linha">
