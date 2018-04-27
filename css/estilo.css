@@ -1,15 +1,25 @@
 /*
 Site: Assistir séries
 Backend e Frontend: Marcielli Oliveira;
+
+Paleta: 
+Cinza: #F2F2F2
+Preto: #2F2F2F
+Azul médio: #375A7F
+Azul escuro: #1F487E
+Azul claro: 5D98D8
+
+
 */
+
 
 /* Configuração geral */
 ::-moz-selection{
-background:#33cc33;
+background:#1F487E;
 color: white;
 }
 ::selection {
-background:#33cc33;
+background:#1F487E;
 color: white;
 }
 
@@ -19,25 +29,25 @@ body {
 }
 
 h1 {
-    color: #33cc33;
+    color: #1F487E;
 }
 
 .btn {
     background-color: white;
-    color: #33cc33;
+    color: #1F487E;
     font-weight: bold;
-    border: 1px solid #33cc33;
+    border: 1px solid #1F487E;
 }
 
 .btn:hover {
-    background-color: #33cc33;
+    background-color: #5D98D8;
     color: white;
     font-weight: white;
 }
 
 .form-group .form-control {
     background-color: white;
-    border: 1px solid #33cc33;    
+    border: 1px solid #375A7F;    
 }
 
 #rowCentro {   
@@ -48,14 +58,14 @@ h1 {
 
 /* Topo */
 .container-fluid .linha {
-    border-top: 1px solid #33cc33;
+    border-top: 1px solid #375A7F;
 }
 
 /* Menu */
 .container-fluid .navbar {
     margin-top: 10px;
     margin-bottom: -5px;
-    background-color: #33cc33;
+    background-color:#1F487E;
     color: white;
 }
 
@@ -69,7 +79,7 @@ h1 {
 }
 
 .container-fluid .navbar li a:hover {
-    color: #248f24;
+    color: #5D98D8;
     font-weight: bold;
 }
 
@@ -88,15 +98,12 @@ h1 {
 
 /* Formulário Cadastro */
 label {
-    color: #248f24;
+    color: #375A7F;
 }
 
 /* Dados do Início */
-
-
-
 .container-fluid .mostrarInicio li {
-    color: #33cc33;   
+    color: #1F487E;   
     font-size: 130%;
 }
 
@@ -109,24 +116,20 @@ label {
 
 /* Rodape */
 .footer {
-    background-color: white;    
+    background-color: white;   
+     
 }
 
 .footer p {
-    color: #33cc33;
+    color: #1F487E;
     text-align: center;
     font-weight: bold;
 }
 
-.footer .linha {
-    border: 1px solid #33cc33;
-}
-
-
 /* Página Inicial */
 
 .row #perfil {
-    border: 1px solid #33cc33;
+    border: 1px solid  #1F487E;
     background-color: white;   
 }
 
@@ -152,7 +155,7 @@ label {
 }
 
 .row #perfil a:hover {
-    color: #33cc33;
+    color:  #1F487E;
 }
 
 .row #perfil a h4{
@@ -184,25 +187,25 @@ label {
 /* Series */
 .container-fluid #series .list-group-item {
     background-color: white;
-    border: 1px solid #33cc33;
-    color: #33cc33;
+    border: 1px solid #1F487E;
+    color:  #1F487E;
 }
 
 .container-fluid #series .list-group-item:hover {
-    background-color: #33cc33;
+    background-color: #375A7F;
     color: white;
 }
 
 .container-fluid #series #btn {
-    background-color: #33cc33;
+    background-color: #375A7F;
     color: white;
     border-top: 1px solid #d6f5d6;
 }
 
 .container-fluid #series #btn:hover {
     background-color: #d6f5d6;
-    border: 1px solid #33cc33;
-    color: #33cc33;
+    border: 1px solid #375A7F;
+    color: #375A7F;
 }
 
 

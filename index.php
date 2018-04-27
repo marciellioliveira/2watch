@@ -94,10 +94,11 @@ Backend e Frontend: Marcielli Oliveira;
 
   
  
-<div class="footer"> 
- <hr class="linha"> 
-  <p>Footer</p>
-</div> <!-- Fecha footer -->
+<?php
+
+require_once 'rodape.php';
+
+?>
 
 </body>
 </html>
