@@ -7,7 +7,7 @@ Cinza: #F2F2F2
 Preto: #2F2F2F
 Azul médio: #375A7F
 Azul escuro: #1F487E
-Azul claro: 5D98D8
+Azul claro: 5D98D8;
 
 
 */
@@ -171,6 +171,31 @@ div#perfil.col-sm-3 img{
     background-color: white;
     border: 1px solid #1F487E;
     color:  #1F487E;
+}
+
+div.row img{
+    float: left;
+    max-width: 15%;
+    
+}
+
+.row a {
+    color: black;
+}
+
+.row a:hover {
+    color:  #1F487E;
+}
+
+.row  a h4{
+    padding-left:17%;
+    padding-top: 12%;
+}
+
+div#headerPerfil {
+    background-color: #F2F2F2;
+    padding: 2%;
+    
 }
 
 
