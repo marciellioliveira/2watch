@@ -107,11 +107,12 @@ label {
     font-size: 130%;
 }
 
-.img-circle {
-    max-width: 30%;
+.container-fluid img.img-circle {
+    float: none;
+    max-width: 10%;
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;    
 }
 
 /* Rodape */

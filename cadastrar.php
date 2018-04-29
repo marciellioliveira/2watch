@@ -78,13 +78,14 @@ Backend e Frontend: Marcielli Oliveira;
           </a>
         </div>
       </div>
+
+      <img src="imgs/marca/2watch-logo.png" class="img-circle" alt="Cinque Terre" >
+
       <div class="col-lg-6 col-sm-6 col-xs-12">
 
        <!-- Cadastrar -->
 
-       <form action="crud/cadastrarUsuario.php" method="POST">
-
-        <img src="imgs/marca/2watch-logo.png" class="img-circle" alt="Cinque Terre" >
+       <form action="crud/cadastrarUsuario.php" method="POST">        
 
         <div class="form-group">
           <label for="nome">Nome*</label>
