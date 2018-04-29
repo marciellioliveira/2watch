@@ -4,7 +4,7 @@ require_once 'topo.php';
 
 
 <div class="container-fluid">      
-  <div class="row">
+  <div class="row" id="topo">
     <div id="headerPerfil">
     <img src="imgs/usuario/dualipa/dualipa.jpg" alt="Foto Perfil">
         <button type="button" class="btn btn-default pull-right" id="editarPerfil">Editar Perfil</button>

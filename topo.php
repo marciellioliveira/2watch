@@ -22,11 +22,9 @@ Backend e Frontend: Marcielli Oliveira;
 
 <body>
 
-  <div class="container-fluid">      
-
-
-<nav class="navbar navbar-inverse" role="navigation">
-  <div class="container-fluid">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <a class="navbar-brand" href="pagina_inicial.php">2WATCH</a>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -52,7 +50,8 @@ Backend e Frontend: Marcielli Oliveira;
             <li><a href="entrar.php">Sair</a></li>
         </ul>
       </div>
-  </div>
 </nav>
+
+  <div class="container-fluid">      
 
     <hr class="linha">

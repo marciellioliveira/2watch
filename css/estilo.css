@@ -15,12 +15,12 @@ Azul claro: 5D98D8;
 
 /* Configuração geral */
 ::-moz-selection{
-background:#1F487E;
-color: white;
+    background:#1F487E;
+    color: white;
 }
 ::selection {
-background:#1F487E;
-color: white;
+    background:#1F487E;
+    color: white;
 }
 
 body {
@@ -53,6 +53,7 @@ h1 {
 #rowCentro {   
     align-items: center;
     padding-top: 30px;
+    margin-top: 5%;
 }
 
 
@@ -62,28 +63,26 @@ h1 {
 }
 
 /* Menu */
-.container-fluid .navbar {
-    margin-top: 10px;
-    margin-bottom: -5px;
+.navbar {
     background-color:#1F487E;
     color: white;
 }
 
-.container-fluid .navbar .navbar-brand {
+.navbar .navbar-brand {
     color: white;
 }
 
-.container-fluid .navbar li a{
-     color: white;
-     font-weight: bold;
-}
-
-.container-fluid .navbar li a:hover {
-    color: #5D98D8;
+ul.nav.navbar-nav li a{
+    color: white;
     font-weight: bold;
 }
 
-.container-fluid .navbar-header img {
+ul.nav.navbar-nav li a:hover {
+   color: #5D98D8;
+   font-weight: bold;
+}
+
+.navbar-header img {
     margin-top: -1%;
     max-width: 22%;
 }
@@ -118,7 +117,7 @@ label {
 /* Rodape */
 .footer {
     background-color: white;   
-     
+
 }
 
 .footer p {
@@ -137,8 +136,12 @@ label {
 
 }
 
+.container-fluid #topo {
+    margin-top: 2%;
+}
+
 .row #perfil #editarPerfil {
-   margin-top: 5%;
+ margin-top: 5%;
 }
 
 div#perfil.col-sm-3 img{
@@ -164,8 +167,8 @@ div#perfil.col-sm-3 img{
 
 /* Perfil */
 #perfil div.list-group h4{
-   text-align: center;
-    color: #1F487E;
+ text-align: center;
+ color: #1F487E;
 }
 
 #perfil .list-group-item {

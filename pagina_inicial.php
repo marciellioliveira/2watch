@@ -4,7 +4,7 @@ require_once 'topo.php';
 
 
 <div class="container-fluid">      
-  <div class="row">
+  <div class="row" id="topo">
     <div class="col-sm-3" id="perfil">
 
       	<img src="imgs/usuario/dualipa/dualipa.jpg" alt="Foto Perfil">
