@@ -232,7 +232,39 @@ div#headerPerfil {
     color: white;
 }
 
+/* Página Perfil de Cada Série */
+.row #perfilSerie {
+    background-color: white;
+    margin-bottom: -15%;
+    border: 1px solid  #1F487E;
+}
 
+div#perfilSerie.col-sm-3 img{
+    float: left;    
+    max-width: 40%;
+    padding-top: 5%;
+}
+
+div#perfilSerie.col-sm-3  a h4 {
+    padding-top: 17%;
+    text-align: center;
+}
+
+div#perfilSerie.col-sm-3 hr {
+    width: 50%;
+}
+
+div#perfilSerie.col-sm-3 .list-group {
+    padding-top: 10%;
+}
+
+div#perfilSerie.col-sm-3 .list-group h4 {
+    text-align: center;
+}
+
+select#selNota.form-control {
+  height: 30px; padding: 5px 15px;
+}
 
 /*
 Cores
