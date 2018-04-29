@@ -32,7 +32,7 @@ require_once 'topo.php';
     </div>
 
 
-    <div class="col-sm-6" id="feed">
+    <div class="col-sm-9" id="feed">
 
       <h3>Mr. Robot</h3>
 
@@ -230,7 +230,7 @@ require_once 'topo.php';
 
     </div>
 
-    <div class="col-sm-3" id="series">
+   <!-- <div class="col-sm-3" id="series">
     	
       <div class="list-group">
 
@@ -261,7 +261,7 @@ require_once 'topo.php';
         <a href="#" class="list-group-item btn" id="btn">VER MAIS</a>
     </div>
 
-    </div>
+    </div>-->
   </div>
 
 </div>

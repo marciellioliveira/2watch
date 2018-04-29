@@ -20,32 +20,23 @@ Backend e Frontend: Marcielli Oliveira;
 
 <body>
 
-    <nav class="avbar navbar-inverse navbar-fixed-top">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <a class="navbar-brand" href="pagina_inicial.php">2WATCH</a>
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-    </div>
-    <div class="navbar-collapse collapse">
-    <ul class="nav navbar-nav ">
-      <li><a href="perfil.php">Perfil</a></li>
-      <li><a href="#">Grade</a></li>
-      <li><a href="#">Amigos</a></li>
-      <li><a href="#">Mensagens</a></li>
-    </ul>
-    <form class="navbar-form navbar-left" action="/action_page.php">
-      <div class="form-group">
-        <input type="text" class="form-control" placeholder="Pesquise aqui">
-      </div>
-      <button type="submit" class="btn btn-default">Enviar</button>
-    </form>
-    <ul class="nav navbar-nav navbar-right">
-            <li><a href="entrar.php">Sair</a></li>
+     <div class="navbar-header">
+          <a class="navbar-brand" href="index.php">
+            2WATCH
+          </a>
+        </div>
+        <ul class="nav navbar-nav hidden">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Page 1</a></li>
+          <li><a href="#">Page 2</a></li>
+          <li><a href="#">Page 3</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">          
+          <li><a href="Cadastrar.php"><span class="glyphicon glyphicon-user"></span> Cadastrar</a></li>
+          <li><a href="entrar.php"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
         </ul>
       </div>
 </nav>
