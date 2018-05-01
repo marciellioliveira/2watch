@@ -21,28 +21,28 @@ Backend e Frontend: Marcielli Oliveira;
 
 <body>
 
-   <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-     <div class="navbar-header">
-          <a class="navbar-brand" href="index.php">
-            2WATCH
-          </a>
-        </div>
-        <ul class="nav navbar-nav hidden">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Page 1</a></li>
-          <li><a href="#">Page 2</a></li>
-          <li><a href="#">Page 3</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">          
-          <li><a href="Cadastrar.php"><span class="glyphicon glyphicon-user"></span> Cadastrar</a></li>
-          <li><a href="entrar.php"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
-        </ul>
-      </div>
+ <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.php">
+        2WATCH
+      </a>
+    </div>
+    <ul class="nav navbar-nav hidden">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">          
+      <li><a href="Cadastrar.php"><span class="glyphicon glyphicon-user"></span> Cadastrar</a></li>
+      <li><a href="entrar.php"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
+    </ul>
+  </div>
 </nav>
 
-  <div class="container-fluid">      
+<div class="container-fluid">      
 
     <!--<nav class="navbar navbar-default">
       <div class="container-fluid">
