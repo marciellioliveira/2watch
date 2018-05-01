@@ -12,10 +12,6 @@ if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true
 
 $logado = $_SESSION['email'];
 
-
- // echo 'Bem Vindo: $logado';
-     
-
 require_once 'topo.php';
 ?>
 
@@ -27,8 +23,7 @@ require_once 'topo.php';
      <img src="imgs/usuario/dualipa/dualipa.jpg" alt="Foto Perfil">
      <button type="button" class="btn btn-default pull-right" id="editarPerfil">Editar Perfil</button>
 
-     <a href="perfil.php"><h4>Dua Lipa</h4></a>      
-
+     <a href="perfil.php"><h4>Dua Lipa</h4></a>  
 
      <marquee behavior="scroll" direction="left" id="marquee"><br>
       Visto por último: Riverdale - Temporada 5, Epsódio 16.
@@ -37,7 +32,9 @@ require_once 'topo.php';
 
 
     <div class="list-group">
-     
+     <?php 
+     //echo "Bem Vindo: $logado";
+     ?>
       <h4>Série em Grupo</h4>
       <p>Crie uma sala e marque horário para que pessoas assistam a mesma série que você. </p>
       <a href="" class="list-group-item">The Big Bang Theory</a>
@@ -59,22 +56,22 @@ require_once 'topo.php';
 
       <h4>Atualizações</h4>
 
-      <a href="#" class="list-group-item">Dener finalizou The Big Bang Theory</a>
-      <a href="#" class="list-group-item">Vinicius começou a maratonar The IT Crowd</a>
-      <a href="#" class="list-group-item">Janaina gostou do epsódio 5x3 de Riverdale</a>
-      <a href="#" class="list-group-item">Marcelo comentou no epsódio 5x7 de Grey's Anatomy</a>
-      <a href="#" class="list-group-item">Dener finalizou The Big Bang Theory</a>
-      <a href="#" class="list-group-item">Vinicius começou a maratonar The IT Crowd</a>
-      <a href="#" class="list-group-item">Janaina gostou do epsódio 5x3 de Riverdale</a>
-      <a href="#" class="list-group-item">Marcelo comentou no epsódio 5x7 de Grey's Anatomy</a>
-      <a href="#" class="list-group-item">Dener finalizou The Big Bang Theory</a>
-      <a href="#" class="list-group-item">Vinicius começou a maratonar The IT Crowd</a>
-      <a href="#" class="list-group-item">Janaina gostou do epsódio 5x3 de Riverdale</a>
-      <a href="#" class="list-group-item">Marcelo comentou no epsódio 5x7 de Grey's Anatomy</a>
-      <a href="#" class="list-group-item">Dener finalizou The Big Bang Theory</a>
-      <a href="#" class="list-group-item">Vinicius começou a maratonar The IT Crowd</a>
-      <a href="#" class="list-group-item">Janaina gostou do epsódio 5x3 de Riverdale</a>
-      <a href="#" class="list-group-item">Marcelo comentou no epsódio 5x7 de Grey's Anatomy</a>
+      <a href="#" class="list-group-item feed">Dener finalizou The Big Bang Theory</a>
+      <a href="#" class="list-group-item feed">Vinicius começou a maratonar The IT Crowd</a>
+      <a href="#" class="list-group-item feed">Janaina gostou do epsódio 5x3 de Riverdale</a>
+      <a href="#" class="list-group-item feed">Marcelo comentou no epsódio 5x7 de Grey's Anatomy</a>
+      <a href="#" class="list-group-item feed">Dener finalizou The Big Bang Theory</a>
+      <a href="#" class="list-group-item feed">Vinicius começou a maratonar The IT Crowd</a>
+      <a href="#" class="list-group-item feed">Janaina gostou do epsódio 5x3 de Riverdale</a>
+      <a href="#" class="list-group-item feed">Marcelo comentou no epsódio 5x7 de Grey's Anatomy</a>
+      <a href="#" class="list-group-item feed">Dener finalizou The Big Bang Theory</a>
+      <a href="#" class="list-group-item feed">Vinicius começou a maratonar The IT Crowd</a>
+      <a href="#" class="list-group-item feed">Janaina gostou do epsódio 5x3 de Riverdale</a>
+      <a href="#" class="list-group-item feed">Marcelo comentou no epsódio 5x7 de Grey's Anatomy</a>
+      <a href="#" class="list-group-item feed">Dener finalizou The Big Bang Theory</a>
+      <a href="#" class="list-group-item feed">Vinicius começou a maratonar The IT Crowd</a>
+      <a href="#" class="list-group-item feed">Janaina gostou do epsódio 5x3 de Riverdale</a>
+      <a href="#" class="list-group-item feed">Marcelo comentou no epsódio 5x7 de Grey's Anatomy</a>
 
     </div>
 

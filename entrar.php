@@ -44,28 +44,7 @@ Backend e Frontend: Marcielli Oliveira;
 
 <div class="container-fluid">      
 
-    <!--<nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.php">
-            2WATCH
-          </a>
-        </div>
-        <ul class="nav navbar-nav hidden">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Page 1</a></li>
-          <li><a href="#">Page 2</a></li>
-          <li><a href="#">Page 3</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">          
-          <li><a href="Cadastrar.php"><span class="glyphicon glyphicon-user"></span> Cadastrar</a></li>
-          <li><a href="entrar.php"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
-        </ul>
-      </div>
-    </nav>-->
-
-    <hr class="linha">
-
+     <hr class="linha">
 
     <div class="row" id="rowCentro">          
       <div class="col-lg-6 col-sm-6 col-xs-12">

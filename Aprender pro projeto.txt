@@ -1,0 +1,10 @@
+Aprender pro Projeto
+
+HTTP
+https://pt.stackoverflow.com/questions/174116/como-o-protocolo-http-processa-as-requisições
+
+Guzzle, PHP HTTP client
+https://github.com/guzzle/guzzle/blob/master/README.md
+
+PHP/cURL
+https://www.startutorial.com/articles/view/php-curl

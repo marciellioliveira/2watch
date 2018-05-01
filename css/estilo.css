@@ -178,6 +178,14 @@ div#perfil.col-sm-3 img{
     color:  #1F487E;
 }
 
+a.list-group-item.feed {
+ color:  black; 
+}
+
+a.list-group-item.feed:hover {
+ color:  #1F487E;   
+}
+
 div.row img{
     float: left;
     max-width: 15%;
@@ -185,11 +193,11 @@ div.row img{
 }
 
 .row a {
-    color: black;
+    color: white;
 }
 
 .row a:hover {
-    color:  #1F487E;
+    color:  #F2F2F2;
 }
 
 .row  a h4{
@@ -198,9 +206,13 @@ div.row img{
 }
 
 div#headerPerfil {
-    background-color: #F2F2F2;
+    background-color:  #375A7F;
     padding: 2%;
-    
+}
+
+div#headerPerfil p{
+    color: white;
+    text-align: center;
 }
 
 

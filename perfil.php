@@ -1,4 +1,17 @@
 <?php 
+
+session_start();  
+
+if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true)) {
+
+
+  //unset($_SESSION['email']);
+  //unset($_SESSION['senha']);
+  session_destroy();
+} 
+
+$logado = $_SESSION['email'];
+
 require_once 'topo.php';
 ?>
 
@@ -11,9 +24,8 @@ require_once 'topo.php';
 
            <a href=""><h4>Dua Lipa</h4></a>           
 
-        <marquee behavior="scroll" direction="left" id="marquee"><br>
-          Visto por último: Riverdale - Temporada 5, Epsódio 16.
-        </marquee>
+           <p>Visto por último: Riverdale - Temporada 5, Epsódio 16.</p>
+    
        </div>
         <hr>
     <div class="col-sm-3" id="perfil">      	
@@ -28,15 +40,6 @@ require_once 'topo.php';
           <a href="#" class="list-group-item">Quantas maratonas? 3</a>
           <a href="#" class="list-group-item">Séries reassistidas: 4</a>
           <a href="#" class="list-group-item">Séries brasileiras: 2</a>
-
-         <!-- <h5>Epsódios já vistos: 6788</h5>
-          <h5>Séries na grade: 56</h5>
-          <h5>Séries abandonadas: 5</h5>
-          <h5>Séries na geladeira: 12</h5>
-          <h5>Total de horas assistidas: 50hrs</h5>
-          <h5>Quantas maratonas? 3</h5>
-          <h5>Séries reassistidas: 4</h5>
-          <h5>Séries brasileiras: 2</h5>-->
                     
           <br>
         </div>
@@ -50,22 +53,22 @@ require_once 'topo.php';
       <div class="list-group">
 
         <h4>Atualizações</h4>
-        <a href="#" class="list-group-item">Finalizei The Big Bang Theory</a>
-        <a href="#" class="list-group-item">Comecei a maratonar The IT Crowd</a>
-        <a href="#" class="list-group-item">Gostei do epsódio 5x3 de Riverdale</a>
-        <a href="#" class="list-group-item">Comentei no epsódio 5x7 de Grey's Anatomy</a>
-        <a href="#" class="list-group-item">Finalizei The Big Bang Theory</a>
-        <a href="#" class="list-group-item">Comecei a maratonar The IT Crowd</a>
-        <a href="#" class="list-group-item">Gostei do epsódio 5x3 de Riverdale</a>
-        <a href="#" class="list-group-item">Comentei no epsódio 5x7 de Grey's Anatomy</a>
-        <a href="#" class="list-group-item">Finalizei The Big Bang Theory</a>
-        <a href="#" class="list-group-item">Comecei a maratonar The IT Crowd</a>
-        <a href="#" class="list-group-item">Gostei do epsódio 5x3 de Riverdale</a>
-        <a href="#" class="list-group-item">Comentei no epsódio 5x7 de Grey's Anatomy</a>
-        <a href="#" class="list-group-item">Finalizei The Big Bang Theory</a>
-        <a href="#" class="list-group-item">Comecei a maratonar The IT Crowd</a>
-        <a href="#" class="list-group-item">Gostei do epsódio 5x3 de Riverdale</a>
-        <a href="#" class="list-group-item">Comentei no epsódio 5x7 de Grey's Anatomy</a>
+        <a href="#" class="list-group-item feed">Finalizei The Big Bang Theory</a>
+        <a href="#" class="list-group-item feed">Comecei a maratonar The IT Crowd</a>
+        <a href="#" class="list-group-item feed">Gostei do epsódio 5x3 de Riverdale</a>
+        <a href="#" class="list-group-item feed">Comentei no epsódio 5x7 de Grey's Anatomy</a>
+        <a href="#" class="list-group-item feed">Finalizei The Big Bang Theory</a>
+        <a href="#" class="list-group-item feed">Comecei a maratonar The IT Crowd</a>
+        <a href="#" class="list-group-item feed">Gostei do epsódio 5x3 de Riverdale</a>
+        <a href="#" class="list-group-item feed">Comentei no epsódio 5x7 de Grey's Anatomy</a>
+        <a href="#" class="list-group-item feed">Finalizei The Big Bang Theory</a>
+        <a href="#" class="list-group-item feed">Comecei a maratonar The IT Crowd</a>
+        <a href="#" class="list-group-item feed">Gostei do epsódio 5x3 de Riverdale</a>
+        <a href="#" class="list-group-item feed">Comentei no epsódio 5x7 de Grey's Anatomy</a>
+        <a href="#" class="list-group-item feed">Finalizei The Big Bang Theory</a>
+        <a href="#" class="list-group-item feed">Comecei a maratonar The IT Crowd</a>
+        <a href="#" class="list-group-item feed">Gostei do epsódio 5x3 de Riverdale</a>
+        <a href="#" class="list-group-item feed">Comentei no epsódio 5x7 de Grey's Anatomy</a>
       </div>
 
 
