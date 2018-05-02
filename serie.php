@@ -1,4 +1,17 @@
 <?php 
+
+session_start();  
+
+if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true)) {
+
+
+  //unset($_SESSION['email']);
+  //unset($_SESSION['senha']);
+  session_destroy();
+} 
+
+$logado = $_SESSION['email'];
+
 require_once 'topo.php';
 ?>
 
@@ -14,17 +27,17 @@ require_once 'topo.php';
         <hr>
 
         <div class="list-group">       
-          <a href="" class="list-group-item">Adicionar na Grade</a>
-          <a href="" class="list-group-item">Adicionar na Geladeira</a>
-          <a href="" class="list-group-item">Marcar como vista</a>
-          <a href="" class="list-group-item">Iniciar Maratona</a>
+          <a href="" class="list-group-item feed">Adicionar na Grade</a>
+          <a href="" class="list-group-item feed">Adicionar na Geladeira</a>
+          <a href="" class="list-group-item feed">Marcar como vista</a>
+          <a href="" class="list-group-item feed">Iniciar Maratona</a>
           <h4>Temporada</h4>
           <p>Escolha uma temporada e comece a assistir! </p>
-          <a href="" class="list-group-item">Temporada 5</a>
-          <a href="" class="list-group-item">Temporada 4</a>
-          <a href="" class="list-group-item">Temporada 3</a>
-          <a href="" class="list-group-item">Temporada 2</a>
-          <a href="" class="list-group-item">Temporada 1</a>
+          <a href="" class="list-group-item feed">Temporada 5</a>
+          <a href="" class="list-group-item feed">Temporada 4</a>
+          <a href="" class="list-group-item feed">Temporada 3</a>
+          <a href="" class="list-group-item feed">Temporada 2</a>
+          <a href="" class="list-group-item feed">Temporada 1</a>
           <br>
         </div>     
       
@@ -36,7 +49,7 @@ require_once 'topo.php';
 
       <h3>Mr. Robot</h3>
 
-      <table class="table">
+     <table class="table">
         <thead>
           <tr>
             <th>Status</th>
@@ -54,7 +67,7 @@ require_once 'topo.php';
             <td>Maio/2015</td>
             <td>USA</td>
             <td>60min</td>
-            <td>---</td>
+            <td>-</td>
             <td>US</td>
             <td>Indefinido</td>
           </tr>        
@@ -65,11 +78,11 @@ require_once 'topo.php';
         <h4>Sinopse</h4>
         <h5>Elliot (Rami Malek) é um jovem programador que sofre de uma desordem mental que o torna antissocial. Ele trabalha como técnico de segurança virtual durante o dia, e como hacker vigilante durante a noite. Elliot se vê numa encruzilhada quando o líder (Christian Slater) de um misterioso grupo de hackers o recruta para destruir a firma que ele é pago para proteger. Motivado pelas suas crenças pessoais, mesmo tendo noção do expressivo controle que essa corporação exerce sobre a sociedade mundial ele tenta resistir à oportunidade de destruir os CEOs dessa multinacional.</h5>
       </div>
-        
-              <table class="table">
+       
+       <p><strong>Temporada: 3</strong></p> 
+        <table class="table">
         <thead>
           <tr>
-            <th>Temporada</th>
             <th>Epsódio</th>
             <th>Nome</th>
             <th>Exibido em</th>
@@ -79,7 +92,6 @@ require_once 'topo.php';
         </thead>
         <tbody>
           <tr>
-            <td>3</td>
             <td>10</td>
             <td> shutdown -r</td>
             <td>13/12/2017</td>
@@ -107,7 +119,6 @@ require_once 'topo.php';
           </tr>    
 
           <tr>
-            <td>3</td>
             <td>9</td>
             <td>eps3.8_stage3.torrent</td>
             <td>em 06/12/2017</td>
@@ -135,7 +146,6 @@ require_once 'topo.php';
           </tr> 
 
           <tr>
-            <td>3</td>
             <td>9</td>
             <td>eps3.8_stage3.torrent</td>
             <td>em 06/12/2017</td>
@@ -163,7 +173,6 @@ require_once 'topo.php';
           </tr> 
 
           <tr>
-            <td>3</td>
             <td>9</td>
             <td>eps3.8_stage3.torrent</td>
             <td>em 06/12/2017</td>
@@ -191,7 +200,6 @@ require_once 'topo.php';
           </tr> 
 
           <tr>
-            <td>3</td>
             <td>9</td>
             <td>eps3.8_stage3.torrent</td>
             <td>em 06/12/2017</td>

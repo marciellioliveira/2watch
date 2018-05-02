@@ -21,6 +21,7 @@ require_once 'topo.php';
     <div class="col-sm-3" id="perfil">
 
      <img src="imgs/usuario/dualipa/dualipa.jpg" alt="Foto Perfil">
+     
      <button type="button" class="btn btn-default pull-right" id="editarPerfil">Editar Perfil</button>
 
      <a href="perfil.php"><h4>Dua Lipa</h4></a>  

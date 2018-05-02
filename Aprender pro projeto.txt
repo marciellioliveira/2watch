@@ -8,3 +8,9 @@ https://github.com/guzzle/guzzle/blob/master/README.md
 
 PHP/cURL
 https://www.startutorial.com/articles/view/php-curl
+
+
+
+
+Abaixo tem uma API legal
+https://trakt.docs.apiary.io

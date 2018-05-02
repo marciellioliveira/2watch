@@ -26,6 +26,7 @@ Backend e Frontend: Marcielli Oliveira;
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
+      
       <a class="navbar-brand hidden-sm hidden-lg" href="pagina_inicial.php">2WATCH</a>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
@@ -38,7 +39,7 @@ Backend e Frontend: Marcielli Oliveira;
        <li><a href="pagina_inicial.php">Página Inicial</a></li>
       <li><a href="#">Grade</a></li>
       <li><a href="#">Amigos</a></li>
-      <li><a href="#">Mensagens</a></li>
+      <li><a href="#">Mensagens <span class="badge">42</span></a></li>
     </ul>
     <form class="navbar-form navbar-left" action="/action_page.php">
       <div class="form-group">
