@@ -13,8 +13,8 @@ if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true
 $logado = $_SESSION['email'];
 
 require_once 'topo.php';
-?>
 
+?>
 
 <div class="container-fluid">      
   <div class="row" id="topo">
@@ -49,9 +49,9 @@ require_once 'topo.php';
 
 
   </div>
+<br><br>
 
-
-  <div class="col-sm-6" id="feed">
+  <div class="col-sm-6 hidden-xs" id="feed">
 
     <div class="list-group">
 

@@ -21,31 +21,27 @@ Backend e Frontend: Marcielli Oliveira;
 
 <body>
 
-     <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-     <div class="navbar-header">
-          <a class="navbar-brand" href="index.php">
-            2WATCH
-          </a>
-        </div>
-        <ul class="nav navbar-nav hidden">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Page 1</a></li>
-          <li><a href="#">Page 2</a></li>
-          <li><a href="#">Page 3</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">          
-          <li><a href="Cadastrar.php"><span class="glyphicon glyphicon-user"></span> Cadastrar</a></li>
-          <li><a href="entrar.php"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
-        </ul>
-      </div>
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.php">2WATCH</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="cadastrar.php"><span class="glyphicon glyphicon-user"></span> Cadastrar</a></li>
+        <li><a href="entrar.php"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
+      </ul>
+    </div>
+  </div>
 </nav>
 
-  <div class="container-fluid">      
-
-    <hr class="linha">
-
+  <div class="container-fluid">  
     <div class="row" id="rowCentro">          
       <div class="col-lg-6 col-sm-6 col-xs-12">
         <div id="carouselInicio" class="carousel slide" data-ride="carousel">

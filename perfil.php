@@ -13,23 +13,20 @@ if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true
 $logado = $_SESSION['email'];
 
 require_once 'topo.php';
+
 ?>
-
-
+<br>
 <div class="container-fluid">      
-  <div class="row" id="topo">
-    <div id="headerPerfil">
-    <img src="imgs/usuario/dualipa/dualipa.jpg" alt="Foto Perfil">
-        <button type="button" class="btn btn-default pull-right" id="editarPerfil">Editar Perfil</button>
+  <div class="row" id="topo">   
+       
+    <div class="col-sm-3" id="perfil">   
 
-           <a href=""><h4>Dua Lipa</h4></a>           
+      <button type="button" class="btn btn-default pull-right" id="editarPerfil">Editar Perfil</button>
+          <img src="imgs/usuario/dualipa/dualipa.jpg" alt="Foto Perfil">
+          <a href=""><h4>Dua Lipa</h4></a>   
 
-           <p>Visto por último: Riverdale - Temporada 5, Epsódio 16.</p>
-    
-       </div>
-        <hr>
-    <div class="col-sm-3" id="perfil">      	
-
+           <p>Visto por último: Riverdale - Temporada 5, Epsódio 16.</p>   	
+ <hr>
         <div class="list-group">
 
           <h4>Estatísticas</h4>
@@ -47,8 +44,7 @@ require_once 'topo.php';
    
     </div>
 
-
-    <div class="col-sm-6" id="feed">
+    <div class="col-sm-6  hidden-xs" id="feed">
 
       <div class="list-group">
 

@@ -15,7 +15,7 @@ try {
     $linhaConsulta = $stmt->fetchObject(); 
 
     if ($linhaConsulta) {
-    //Login confirmado    
+    //Login confirmado
 
         $_SESSION['email'] = $email;
         $_SESSION['senha'] = $senha;
