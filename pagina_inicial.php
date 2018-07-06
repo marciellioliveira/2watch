@@ -36,14 +36,14 @@ require_once 'topo.php';
      <?php 
      //echo "Bem Vindo: $logado";
      ?>
-      <h4>Série em Grupo</h4>
-      <p>Crie uma sala e marque horário para que pessoas assistam a mesma série que você. </p>
-      <a href="" class="list-group-item">The Big Bang Theory</a>
-      <a href="" class="list-group-item">Young Sheldon</a>
-      <a href="" class="list-group-item">The 100</a>
-      <a href="" class="list-group-item">Broklyn 99</a>
+      <h4>Eu shippo e vc?</h4>
+      <p>Crie uma grupo para seu shippe, várias pessoas podem entrar e shippar com você. É mais legal shippar junto, ne? </p>
+      <a href="" class="list-group-item">Camren</a>
+      <a href="" class="list-group-item">Wayhaught</a>
+      <a href="" class="list-group-item">Delena</a>
+      <a href="" class="list-group-item">Sanvers</a>
       <a href="#" class="list-group-item btn" id="btn">VER MAIS</a>
-      <a href="#" class="list-group-item btn" id="btn">ADICIONAR SALA</a>
+      <a href="#" class="list-group-item btn" id="btn">CRIAR GRUPO</a>
       <br>
     </div>
 
