@@ -49,7 +49,7 @@ require_once 'topo.php';
 
 
   </div>
-<br><br>
+
 
   <div class="col-sm-6 hidden-xs" id="feed">
 
@@ -112,10 +112,10 @@ require_once 'topo.php';
 
   </div>
 </div>
-
 </div>
 
 
+  
 
 
 

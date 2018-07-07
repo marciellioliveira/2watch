@@ -39,6 +39,7 @@ Backend e Frontend: Marcielli Oliveira;
        <li><a href="pagina_inicial.php">Página Inicial</a></li>
       <li><a href="#">Grade</a></li>
       <li><a href="#">Amigos</a></li>
+      <li><a href="#">Meus Shipps</a></li>
       <li><a href="#">Mensagens <span class="badge">42</span></a></li>
     </ul>
     <form class="navbar-form navbar-left" action="/action_page.php">

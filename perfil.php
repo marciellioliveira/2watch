@@ -28,7 +28,7 @@ require_once 'topo.php';
            <p>Visto por último: Riverdale - Temporada 5, Epsódio 16.</p>   	
  <hr>
         <div class="list-group">
-
+          
           <h4>Estatísticas</h4>
           <a href="#" class="list-group-item">Séries na grade: 56</a>
           <a href="#" class="list-group-item">Séries abandonadas: 5</a>

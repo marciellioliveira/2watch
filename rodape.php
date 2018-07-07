@@ -1,4 +1,4 @@
-<div class="footer"> 
+<div class="footer navbar-fixed-bottom"> 
 	<hr> 
 	<a href="https://marciellioliveira.github.io"><p>Marcielli Oliveira</p></a>
 </div>  <!--Fecha footer -->

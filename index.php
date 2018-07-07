@@ -73,7 +73,7 @@ Backend e Frontend: Marcielli Oliveira;
         </div>
       </div>
       <div class="col-lg-6 col-sm-6 col-xs-12">
-
+        <br class="hidden-lg hidden-sm">
         <ul class="mostrarInicio">
           <li>Marque suas séries vistas.</li>
           <li>Descubra séries novas.</li>
@@ -81,10 +81,9 @@ Backend e Frontend: Marcielli Oliveira;
           <li>Faça amizades</li>
           <li>Compartilhe seu amor pela arte!</li>
         </ul>
-
       </div>
       <!--</div>-->
-
+</div>
     </div> <!-- Fecha container-fluid -->
 
     
