@@ -37,7 +37,7 @@ require_once 'topo.php';
      //echo "Bem Vindo: $logado";
      ?>
       <h4>Eu shippo e vc?</h4>
-      <p>Crie uma grupo para seu shippe, várias pessoas podem entrar e shippar com você. É mais legal shippar junto, ne? </p>
+      <p>Crie um grupo para seu shippe, várias pessoas podem entrar e shippar com você. É mais legal shippar junto, ne? </p>
       <a href="" class="list-group-item">Camren</a>
       <a href="" class="list-group-item">Wayhaught</a>
       <a href="" class="list-group-item">Delena</a>
@@ -49,7 +49,7 @@ require_once 'topo.php';
 
 
   </div>
-
+<br><br>
 
   <div class="col-sm-6 hidden-xs" id="feed">
 
@@ -112,12 +112,9 @@ require_once 'topo.php';
 
   </div>
 </div>
+
+
 </div>
-
-
-  
-
-
 
 </body>
 </html>

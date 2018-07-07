@@ -15,7 +15,7 @@ $logado = $_SESSION['email'];
 require_once 'topo.php';
 
 ?>
-<br>
+
 <div class="container-fluid">      
   <div class="row" id="topo">   
        
@@ -25,8 +25,11 @@ require_once 'topo.php';
           <img src="imgs/usuario/dualipa/dualipa.jpg" alt="Foto Perfil">
           <a href=""><h4>Dua Lipa</h4></a>   
 
-           <p>Visto por último: Riverdale - Temporada 5, Epsódio 16.</p>   	
- <hr>
+           <marquee behavior="scroll" direction="left" id="marquee"><br>
+            Visto por último: Riverdale - Temporada 5, Epsódio 16.
+          </marquee>
+           
+        <hr>
         <div class="list-group">
           
           <h4>Estatísticas</h4>
@@ -40,10 +43,8 @@ require_once 'topo.php';
                     
           <br>
         </div>
-
-   
     </div>
-
+    <br><br>
     <div class="col-sm-6  hidden-xs" id="feed">
 
       <div class="list-group">

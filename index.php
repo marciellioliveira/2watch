@@ -76,10 +76,10 @@ Backend e Frontend: Marcielli Oliveira;
         <br class="hidden-lg hidden-sm">
         <ul class="mostrarInicio">
           <li>Marque suas séries vistas.</li>
-          <li>Descubra séries novas.</li>
-          <li>Assista séries junto mesmo estando longe.</li>
-          <li>Faça amizades</li>
+          <li>Descubra séries novas.</li>          
+          <li>Faça amizades.</li>
           <li>Compartilhe seu amor pela arte!</li>
+          <li>Crie grupos para shippar personagens.</li>
         </ul>
       </div>
       <!--</div>-->

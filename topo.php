@@ -36,9 +36,8 @@ Backend e Frontend: Marcielli Oliveira;
     </div>
     <div class="navbar-collapse collapse">
     <ul class="nav navbar-nav ">
-       <li><a href="pagina_inicial.php">Página Inicial</a></li>
-      <li><a href="#">Grade</a></li>
-      <li><a href="#">Amigos</a></li>
+       <li><a href="pagina_inicial.php">Página Inicial</a></li>      
+      <li><a href="seguidores.php">Seguidores</a></li>
       <li><a href="#">Meus Shipps</a></li>
       <li><a href="#">Mensagens <span class="badge">42</span></a></li>
     </ul>
