@@ -49,7 +49,7 @@ require_once 'topo.php';
 
 
   </div>
-<br><br>
+<br class="hidden-lg"><br class="hidden-lg">
 
   <div class="col-sm-6 hidden-xs" id="feed">
 

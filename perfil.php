@@ -44,7 +44,7 @@ require_once 'topo.php';
           <br>
         </div>
     </div>
-    <br><br>
+    <br class="hidden-lg"><br class="hidden-lg">
     <div class="col-sm-6  hidden-xs" id="feed">
 
       <div class="list-group">
