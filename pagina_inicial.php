@@ -52,30 +52,49 @@ require_once 'topo.php';
 <br class="hidden-lg"><br class="hidden-lg">
 
   <div class="col-sm-6 hidden-xs" id="feed">
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#atualizacoes">Atualizações</a></li>
+      <li><a data-toggle="tab" href="#series">Séries</a></li>
+      <li><a data-toggle="tab" href="#shipps">Shipps</a></li>
+      <li><a data-toggle="tab" href="#mensagens">Mensagens</a></li>
+      <li><a data-toggle="tab" href="#seguidores">Seguidores</a></li>
+    </ul>
 
-    <div class="list-group">
-
-      <h4>Atualizações</h4>
-
-      <a href="#" class="list-group-item feed">Dener finalizou The Big Bang Theory</a>
-      <a href="#" class="list-group-item feed">Vinicius começou a maratonar The IT Crowd</a>
-      <a href="#" class="list-group-item feed">Janaina gostou do epsódio 5x3 de Riverdale</a>
-      <a href="#" class="list-group-item feed">Marcelo comentou no epsódio 5x7 de Grey's Anatomy</a>
-      <a href="#" class="list-group-item feed">Dener finalizou The Big Bang Theory</a>
-      <a href="#" class="list-group-item feed">Vinicius começou a maratonar The IT Crowd</a>
-      <a href="#" class="list-group-item feed">Janaina gostou do epsódio 5x3 de Riverdale</a>
-      <a href="#" class="list-group-item feed">Marcelo comentou no epsódio 5x7 de Grey's Anatomy</a>
-      <a href="#" class="list-group-item feed">Dener finalizou The Big Bang Theory</a>
-      <a href="#" class="list-group-item feed">Vinicius começou a maratonar The IT Crowd</a>
-      <a href="#" class="list-group-item feed">Janaina gostou do epsódio 5x3 de Riverdale</a>
-      <a href="#" class="list-group-item feed">Marcelo comentou no epsódio 5x7 de Grey's Anatomy</a>
-      <a href="#" class="list-group-item feed">Dener finalizou The Big Bang Theory</a>
-      <a href="#" class="list-group-item feed">Vinicius começou a maratonar The IT Crowd</a>
-      <a href="#" class="list-group-item feed">Janaina gostou do epsódio 5x3 de Riverdale</a>
-      <a href="#" class="list-group-item feed">Marcelo comentou no epsódio 5x7 de Grey's Anatomy</a>
-
+    <div class="tab-content">
+      <div id="atualizacoes" class="tab-pane fade in active">
+       <div class="list-group">
+          <h4>Atualizações</h4>
+          <a href="#" class="list-group-item feed">Dener finalizou The Big Bang Theory</a>
+          <a href="#" class="list-group-item feed">Vinicius começou a maratonar The IT Crowd</a>
+          <a href="#" class="list-group-item feed">Janaina gostou do epsódio 5x3 de Riverdale</a>
+          <a href="#" class="list-group-item feed">Marcelo comentou no epsódio 5x7 de Grey's Anatomy</a>
+          <a href="#" class="list-group-item feed">Dener finalizou The Big Bang Theory</a>
+          <a href="#" class="list-group-item feed">Vinicius começou a maratonar The IT Crowd</a>
+          <a href="#" class="list-group-item feed">Janaina gostou do epsódio 5x3 de Riverdale</a>
+          <a href="#" class="list-group-item feed">Marcelo comentou no epsódio 5x7 de Grey's Anatomy</a>
+          <a href="#" class="list-group-item feed">Dener finalizou The Big Bang Theory</a>
+          <a href="#" class="list-group-item feed">Vinicius começou a maratonar The IT Crowd</a>
+          <a href="#" class="list-group-item feed">Janaina gostou do epsódio 5x3 de Riverdale</a>
+          <a href="#" class="list-group-item feed">Marcelo comentou no epsódio 5x7 de Grey's Anatomy</a>
+          <a href="#" class="list-group-item feed">Dener finalizou The Big Bang Theory</a>
+          <a href="#" class="list-group-item feed">Vinicius começou a maratonar The IT Crowd</a>
+          <a href="#" class="list-group-item feed">Janaina gostou do epsódio 5x3 de Riverdale</a>
+          <a href="#" class="list-group-item feed">Marcelo comentou no epsódio 5x7 de Grey's Anatomy</a>
+        </div>
+      </div>
+      <div id="series" class="tab-pane fade">
+        <h4>Séries</h4>
+      </div>
+      <div id="shipps" class="tab-pane fade">
+        <h4>Shipps</h4>
+      </div>
+      <div id="mensagens" class="tab-pane fade">
+        <h4>Mensagens</h4>
+      </div>
+      <div id="seguidores" class="tab-pane fade">
+        <h4>Seguidores</h4>
+      </div>
     </div>
-
 
   </div>
 

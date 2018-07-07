@@ -36,22 +36,19 @@ Backend e Frontend: Marcielli Oliveira;
     </div>
     <div class="navbar-collapse collapse">
     <ul class="nav navbar-nav ">
-       <li><a href="pagina_inicial.php">Página Inicial</a></li>      
-      <li><a href="seguidores.php">Seguidores</a></li>
-      <li><a href="#">Meus Shipps</a></li>
-      <li><a href="#">Mensagens <span class="badge">42</span></a></li>
+       <li><a href="pagina_inicial.php">Página Inicial</a></li>
+       <li><a href="perfil.php">Perfil</a></li>     
     </ul>
-    <form class="navbar-form navbar-left" action="/action_page.php">
-      <div class="form-group">
-        <input type="text" class="form-control" placeholder="Pesquise aqui">
-      </div>
-      <button type="submit" class="btn btn-default">Enviar</button>
-    </form>
-    <ul class="nav navbar-nav navbar-right">
-          
-           <li><a href="perfil.php">Perfil</a></li>
-            <li><a href="entrar.php">Sair</a></li>
-        </ul>
+    
+    <ul class="nav navbar-nav navbar-right">          
+      <form class="navbar-form navbar-left" action="/action_page.php">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Pesquise aqui">
+        </div>
+        <button type="submit" class="btn btn-default">Enviar</button>
+      </form>
+        <li><a href="entrar.php">Sair</a></li>
+    </ul>
       </div>
 </nav>
 
