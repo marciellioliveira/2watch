@@ -262,6 +262,18 @@ select#selNota.form-control {
   height: 30px; padding: 5px 15px;
 }
 
+/* Epsodio */
+
+textarea {
+    resize: none;
+}
+
+/*Quando clica, muda de cor para mostrar que está marcado como curtido
+OBS: Pensar em um icon melhor.*/
+#curtiComentario {
+    float: right;
+    max-width: 3%;
+}
 
 
 /*

@@ -23,7 +23,7 @@ require_once 'topo.php';
       	<img src="imgs/usuario/dualipa/dualipa.jpg" alt="Foto Perfil">
 
 
-        <a href=""><h4>Riverdale</h4></a>
+        <a href=""><h4>Mr. Robot</h4></a>
         <hr>
 
         <div class="list-group">       
@@ -31,6 +31,7 @@ require_once 'topo.php';
           <a href="" class="list-group-item feed">Adicionar na Geladeira</a>
           <a href="" class="list-group-item feed">Marcar como vista</a>
           <a href="" class="list-group-item feed">Iniciar Maratona</a>
+          <br>
           <h4>Temporada</h4>
           <p>Escolha uma temporada e comece a assistir! </p>
           <a href="" class="list-group-item feed">Temporada 5</a>
@@ -93,7 +94,7 @@ require_once 'topo.php';
         <tbody>
           <tr>
             <td>10</td>
-            <td> shutdown -r</td>
+            <td><a href="epsodio.php">shutdown -r</a> </td>
             <td>13/12/2017</td>
             <td>
               <div class="checkbox">
@@ -120,7 +121,7 @@ require_once 'topo.php';
 
           <tr>
             <td>9</td>
-            <td>eps3.8_stage3.torrent</td>
+            <td><a href="epsodio.php">eps3.8_stage3.torrent</a></td>
             <td>em 06/12/2017</td>
             <td>
               <div class="checkbox">
@@ -147,7 +148,7 @@ require_once 'topo.php';
 
           <tr>
             <td>9</td>
-            <td>eps3.8_stage3.torrent</td>
+            <td><a href="epsodio.php">eps3.8_stage3.torrent</a></td>
             <td>em 06/12/2017</td>
             <td>
               <div class="checkbox">
@@ -174,7 +175,7 @@ require_once 'topo.php';
 
           <tr>
             <td>9</td>
-            <td>eps3.8_stage3.torrent</td>
+            <td><a href="epsodio.php">eps3.8_stage3.torrent</a></td>
             <td>em 06/12/2017</td>
             <td>
               <div class="checkbox">
@@ -201,7 +202,7 @@ require_once 'topo.php';
 
           <tr>
             <td>9</td>
-            <td>eps3.8_stage3.torrent</td>
+            <td><a href="epsodio.php">eps3.8_stage3.torrent</a></td>
             <td>em 06/12/2017</td>
             <td>
               <div class="checkbox">
@@ -225,58 +226,11 @@ require_once 'topo.php';
             </div>          
             </td>
           </tr>  
-
-
-        </tbody>
+         </tbody>
       </table>
-
-
-    
-
-
-
-
-    </div>
-
-   <!-- <div class="col-sm-3" id="series">
-    	
-      <div class="list-group">
-
-        <h4>Hoje</h4>
-        <a href="#" class="list-group-item">Riverdale</a>
-        <a href="#" class="list-group-item">Pretty Little Liars</a>
-        <a href="#" class="list-group-item">Orange is the new black</a>
-        <a href="#" class="list-group-item">Legends of tomorrow</a>
-        <a href="#" class="list-group-item btn" id="btn">VER MAIS</a>
-        <br>
-    </div>
-
-      <div class="list-group">
-        <h4>Ativas</h4>
-        <a href="#" class="list-group-item">Riverdale</a>
-        <a href="#" class="list-group-item">Pretty Little Liars</a>
-        <a href="#" class="list-group-item">Orange is the new black</a>
-        <a href="#" class="list-group-item">Legends of tomorrow</a>
-        <a href="#" class="list-group-item btn" id="btn">VER MAIS</a>
-    </div>
-
-      <div class="list-group">
-        <h4>Canceladas</h4>
-        <a href="#" class="list-group-item">Riverdale</a>
-        <a href="#" class="list-group-item">Pretty Little Liars</a>
-        <a href="#" class="list-group-item">Orange is the new black</a>
-        <a href="#" class="list-group-item">Legends of tomorrow</a>
-        <a href="#" class="list-group-item btn" id="btn">VER MAIS</a>
-    </div>
-
-    </div>-->
+    </div>   
   </div>
-
 </div>
-
-
-
-
 
 </body>
 </html>
